@@ -1,0 +1,6 @@
+.vscode
+.DS_Store
+data
+log
+/.env
+/prometheus/vault_token

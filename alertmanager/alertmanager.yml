@@ -1,0 +1,12 @@
+global:
+    smtp_smarthost: smtp.163.com:25
+    smtp_from: shenfakuan@163.com
+    smtp_auth_username: shenfakuan@163.com
+    smtp_auth_password: kuan123168
+route:
+    repeat_interval: 10s
+    receiver: live-monitoring
+receivers:
+- name: live-monitoring
+  email_configs:
+  - to: shenfakuan@163.com
